@@ -15,7 +15,7 @@
 
 .ref-section h2 {
     margin-bottom: 1.5rem;
-    color: #007bff;
+    color: #138d25;
     border-bottom: 2px solid #eaeaea;
     padding-bottom: 0.5rem;
 }
@@ -72,7 +72,7 @@
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    background-color: #000000;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     font-weight: 500;
@@ -80,7 +80,7 @@
 }
 
 .resource-link:hover {
-    background-color: #0056b3;
+    background-color: #11A425;
 }
 
 /* Contact Section */
