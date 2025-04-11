@@ -1,0 +1,105 @@
+/* colours.css */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.colour-section {
+    margin-bottom: 3rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.colour-section h2 {
+    margin-bottom: 1.5rem;
+    color: #007bff;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.5rem;
+}
+
+.colour-palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.colour-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.colour-card:hover {
+    transform: translateY(-5px);
+}
+
+.colour-preview {
+    height: 120px;
+}
+
+.primary-1 .colour-preview { background-color: #007BFF; }
+.primary-2 .colour-preview { background-color: #0056B3; }
+.primary-3 .colour-preview { background-color: #E6F2FF; }
+
+.secondary-1 .colour-preview { background-color: #17A2B8; }
+.secondary-2 .colour-preview { background-color: #28A745; }
+.secondary-3 .colour-preview { background-color: #FD7E14; }
+
+.neutral-1 .colour-preview { background-color: #333333; }
+.neutral-2 .colour-preview { background-color: #6C757D; }
+.neutral-3 .colour-preview { background-color: #F8F9FA; }
+.neutral-4 .colour-preview { 
+    background-color: #FFFFFF; 
+    border: 1px solid #eaeaea;
+}
+
+.colour-info {
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+.colour-info h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.hex, .rgb {
+    margin: 0.25rem 0;
+    font-family: monospace;
+}
+
+.hex {
+    font-weight: bold;
+}
+
+.usage-guidelines {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+.guideline {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
+
+.guideline h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .colour-palette {
+        grid-template-columns: 1fr;
+    }
+    
+    .usage-guidelines {
+        grid-template-columns: 1fr;
+    }
+}
