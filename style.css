@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f8f9fa;
+    background-color: #F2FFF7;
     color: #333;
     line-height: 1.6;
 }
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: #00500B;
     padding: 1rem 5%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
@@ -40,21 +40,21 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #F2FFF7;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #007bff;
+    color: #11A425;
 }
 
 /* Hero Section */
 .hero {
     display: flex;
     padding: 4rem 5%;
-    background-color: #fff;
-    margin: 2rem 0;
+    background-color: #AEE3AB;
+    margin: 0 0 2rem;
 }
 
 .hero-image {
@@ -83,7 +83,7 @@ body {
 
 .hero-text p {
     font-size: 1.1rem;
-    color: #555;
+    color: #000000;
 }
 
 /* Cards Section */
@@ -109,7 +109,7 @@ body {
 
 .card h2 {
     margin-bottom: 1rem;
-    color: #007bff;
+    color: #138d25;
 }
 
 .card p {
@@ -121,7 +121,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    background-color: #000000;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     font-weight: 500;
@@ -129,12 +129,12 @@ body {
 }
 
 .card a:hover {
-    background-color: #0056b3;
+    background-color: #11A425;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #00500B;
     color: #fff;
     text-align: center;
     padding: 1.5rem;
