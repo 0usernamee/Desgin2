@@ -1,0 +1,140 @@
+/* typo.css */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.typo-section {
+    margin-bottom: 3rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.typo-section h2 {
+    margin-bottom: 1.5rem;
+    color: #007bff;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.5rem;
+}
+
+.font-family {
+    margin-bottom: 2rem;
+}
+
+.font-family h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.font-description {
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.font-sample {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.sample-text {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.type-scale {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.scale-item {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.scale-details {
+    color: #666;
+    font-size: 0.875rem;
+    font-family: monospace;
+}
+
+.scale-h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.scale-h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.scale-h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.scale-h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.scale-p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.scale-small {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.line-heights {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.line-height-example {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.line-height-example h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.heading-example {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.body-example {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .scale-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}

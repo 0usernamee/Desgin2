@@ -1,11 +1,92 @@
+<!-- typo.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Typography</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Guidelines</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="typo.css">
 </head>
 <body>
-  
+    <nav class="navbar">
+        <div class="logo">
+            <img src="PLACEHOLDER" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="logo.html">Logo</a></li>
+            <li><a href="colours.html">Colours</a></li>
+            <li><a href="typo.html" class="active">Typography</a></li>
+            <li><a href="icons.html">Icons</a></li>
+            <li><a href="graphics.html">Graphics</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Typography Guidelines</h1>
+        
+        <section class="typo-section">
+            <h2>Primary Font</h2>
+            <div class="font-family">
+                <h3>Arial / Helvetica Sans-Serif</h3>
+                <p class="font-description">Our primary font family is used for all headings and body text across our digital products.</p>
+                <div class="font-sample">
+                    <p class="sample-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                    <p class="sample-text">abcdefghijklmnopqrstuvwxyz</p>
+                    <p class="sample-text">1234567890!@#$%^&*()</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="typo-section">
+            <h2>Type Scale</h2>
+            <div class="type-scale">
+                <div class="scale-item">
+                    <h1 class="scale-h1">Heading 1</h1>
+                    <p class="scale-details">32px / 2rem | Weight: 700</p>
+                </div>
+                <div class="scale-item">
+                    <h2 class="scale-h2">Heading 2</h2>
+                    <p class="scale-details">24px / 1.5rem | Weight: 700</p>
+                </div>
+                <div class="scale-item">
+                    <h3 class="scale-h3">Heading 3</h3>
+                    <p class="scale-details">20px / 1.25rem | Weight: 600</p>
+                </div>
+                <div class="scale-item">
+                    <h4 class="scale-h4">Heading 4</h4>
+                    <p class="scale-details">18px / 1.125rem | Weight: 600</p>
+                </div>
+                <div class="scale-item">
+                    <p class="scale-p">Body Text</p>
+                    <p class="scale-details">16px / 1rem | Weight: 400</p>
+                </div>
+                <div class="scale-item">
+                    <p class="scale-small">Small Text</p>
+                    <p class="scale-details">14px / 0.875rem | Weight: 400</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="typo-section">
+            <h2>Line Heights</h2>
+            <div class="line-heights">
+                <div class="line-height-example">
+                    <h3>Headings: 1.2</h3>
+                    <p class="heading-example">This is an example of heading text with a line height of 1.2. It should be clear and easy to read without too much space between lines.</p>
+                </div>
+                <div class="line-height-example">
+                    <h3>Body Text: 1.6</h3>
+                    <p class="body-example">This is an example of body text with a line height of 1.6. It provides enough space between lines for comfortable reading, especially in longer paragraphs of text. The extra space helps readers scan text more efficiently.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Design System. All rights reserved.</p>
+    </footer>
 </body>
 </html>

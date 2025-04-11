@@ -1,0 +1,101 @@
+/* logo.css */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.logo-section {
+    margin-bottom: 3rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-section h2 {
+    margin-bottom: 1.5rem;
+    color: #007bff;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.5rem;
+}
+
+.logo-showcase {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.logo-showcase img {
+    max-width: 300px;
+}
+
+.logo-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo-variants {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.logo-variant {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.logo-variant img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.do-dont {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.do, .dont {
+    flex: 1;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.do {
+    background-color: #e7f5ea;
+    border-left: 4px solid #28a745;
+}
+
+.dont {
+    background-color: #fbeaea;
+    border-left: 4px solid #dc3545;
+}
+
+.do h3, .dont h3 {
+    margin-bottom: 1rem;
+}
+
+.do ul, .dont ul {
+    margin-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .do-dont {
+        flex-direction: column;
+    }
+    
+    .logo-variants {
+        flex-direction: column;
+        align-items: center;
+    }
+}
