@@ -15,7 +15,7 @@
 
 .colour-section h2 {
     margin-bottom: 1.5rem;
-    color: #007bff;
+    color: #138d25;
     border-bottom: 2px solid #eaeaea;
     padding-bottom: 0.5rem;
 }
@@ -41,13 +41,13 @@
     height: 120px;
 }
 
-.primary-1 .colour-preview { background-color: #007BFF; }
-.primary-2 .colour-preview { background-color: #0056B3; }
-.primary-3 .colour-preview { background-color: #E6F2FF; }
+.primary-1 .colour-preview { background-color: #AEE3AB; }
+.primary-2 .colour-preview { background-color: #F2FFF7; }
+.primary-3 .colour-preview { background-color: #00500B; }
 
-.secondary-1 .colour-preview { background-color: #17A2B8; }
-.secondary-2 .colour-preview { background-color: #28A745; }
-.secondary-3 .colour-preview { background-color: #FD7E14; }
+.secondary-1 .colour-preview { background-color: #5B64C2; }
+.secondary-2 .colour-preview { background-color: #11A425; }
+.secondary-3 .colour-preview { background-color: #BB050B; }
 
 .neutral-1 .colour-preview { background-color: #333333; }
 .neutral-2 .colour-preview { background-color: #6C757D; }
@@ -86,7 +86,7 @@
     background-color: #f8f9fa;
     padding: 1.5rem;
     border-radius: 8px;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #00500B;
 }
 
 .guideline h3 {
