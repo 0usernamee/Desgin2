@@ -15,7 +15,7 @@
 
 .graphics-section h2 {
     margin-bottom: 1.5rem;
-    color: #007bff;
+    color: #138d25;
     border-bottom: 2px solid #eaeaea;
     padding-bottom: 0.5rem;
 }
@@ -117,6 +117,25 @@
 /* Placeholders for images */
 .image-placeholder {
     height: 200px;
+    background-color: #e9ecef;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.photo-placehold    er {
+    height: 250px;
+    width: 1100px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.photo-placeholder_m {
+    height: 250px;
+    width: 400px;
     background-color: #e9ecef;
     display: flex;
     align-items: center;
